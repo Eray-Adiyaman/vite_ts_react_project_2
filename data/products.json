@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "sku":"item0001",
+            "name": "item1",
+            "price": 9.99
+        },
+        {
+            "sku":"item0001",
+            "name": "item2",
+            "price": 19.99
+        },
+        {
+            "sku":"item0001",
+            "name": "item3",
+            "price": 29.99
+        }
+    ]
+}
