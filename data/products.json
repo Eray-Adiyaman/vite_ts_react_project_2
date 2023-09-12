@@ -2,17 +2,17 @@
     "products": [
         {
             "sku":"item0001",
-            "name": "item1",
+            "name": "Popcorn",
             "price": 9.99
         },
         {
             "sku":"item0001",
-            "name": "item2",
+            "name": "Premium Popcorn",
             "price": 19.99
         },
         {
             "sku":"item0001",
-            "name": "item3",
+            "name": "Deluxe Popcorn",
             "price": 29.99
         }
     ]
