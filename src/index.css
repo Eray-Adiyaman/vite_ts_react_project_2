@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: "Nunito",sans-serif;
+    background-color: gray;
+}
+button,select {
+    font: inherit;
+    padding: 0.25rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#root {
+    /*React root div*/
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.main,
+.header,
+.footer {
+    padding: 0.25rem;
+    margin: 0 1em;
+}
+
+.main {
+    display: flex;
+    gap: 1rem;
+}
+
+.header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #000;
+}
+
+.header__title-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.header__price-box {
+    text-align: right;
+}
+
+.nav {
+    justify-content: flex-end;
+    gap: 0.5em;
+}
+
+.footer{
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
