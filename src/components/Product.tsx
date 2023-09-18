@@ -21,7 +21,7 @@ const Product = ( { product, dispatch, REDUCER_ACTIONS,inCart }:PropsType ): Rea
     const itemInCart = inCart ? "-> Item in Cart: ✔️" : null
 
     const content = (
-        <article className="procut">
+        <article className="product">
             <h3>{product.name}</h3>
             <img src={img} alt={product.name} className="product__img" />
             <p>{new Intl.NumberFormat('en-US',{style: "currency", currency:"USD"}).format(product.price)}{itemInCart}</p>
